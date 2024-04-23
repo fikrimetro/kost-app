@@ -1,0 +1,11 @@
+@use 'vuetify/settings' with (
+  $font-size-root: 1rem,
+  $field-font-size: .875rem,
+  $input-font-size: .875rem,
+  $label-font-size: .875rem,
+  $container-padding-x: 12px,
+  $button-text-transform: 'none',
+  $table-row-font-size: .875rem,
+  $table-header-font-size: .875rem,
+);
+
