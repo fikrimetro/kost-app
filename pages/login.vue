@@ -29,8 +29,8 @@ import {
             density="compact"
             variant="outlined"
             label="Username"
-            hide-details
             class="mb-4"
+            hide-details
           />
           <VTextField
             density="compact"
