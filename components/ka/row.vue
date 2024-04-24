@@ -8,6 +8,7 @@ const props = withDefaults(
     spacing?: number | string
     xSpacing?: number | string
     ySpacing?: number | string
+    rowClass?: string
     // Align Items
     align?: CSS.Property.AlignItems
     alignSm?: CSS.Property.AlignItems
@@ -120,6 +121,7 @@ const rowClass = computed(() => (
     makeProperty('justifyContent', props.justifyLg, 'lg'),
     makeProperty('justifyContent', props.justifyXl, 'xl'),
     makeProperty('justifyContent', props.justifyXxl, 'xxl'),
+    props.rowClass,
     'ka-row',
   )
 ))
